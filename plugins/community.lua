@@ -5,6 +5,7 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.completion.codeium-vim" },
 
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },

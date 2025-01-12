@@ -6,7 +6,7 @@ return {
   event = "VeryLazy",
   config = function()
     local lspconfig = require("lspconfig")
-    local capabilities = require("cmp_nvim_lsp").default_capabilities()
+    local capabilities = require("blink.cmp").get_lsp_capabilities()
 
     lspconfig.lua_ls.setup({
       capabilities = capabilities,
@@ -27,8 +27,6 @@ return {
         },
       },
     })
-    lspconfig.html.setup({ capabilities = capabilities })
-    lspconfig.cssls.setup({ capabilities = capabilities })
     lspconfig.emmet_ls.setup({
       capabilities = capabilities,
       filetypes = {

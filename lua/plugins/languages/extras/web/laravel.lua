@@ -10,8 +10,8 @@ return {
   event = "VeryLazy",
   config = true,
   keys = {
-    { "<leader>la", "<cmd>Laravel artisan<cr>", desc = "Laravel Artisan" },
-    { "<leader>lr", "<cmd>Laravel routes<cr>", desc = "Laravel Routes" },
-    { "<leader>lm", "<cmd>Laravel related:<cr>", desc = "Laravel Related" },
+    { "<leader>lla", "<cmd>Laravel artisan<cr>", desc = "Laravel Artisan" },
+    { "<leader>llr", "<cmd>Laravel routes<cr>", desc = "Laravel Routes" },
+    { "<leader>llm", "<cmd>Laravel related:<cr>", desc = "Laravel Related" },
   }
 }
